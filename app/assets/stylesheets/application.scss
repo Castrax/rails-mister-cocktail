@@ -11,3 +11,13 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+.container-cocktails {
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+h2 {
+  font-weight: 800;
+}
