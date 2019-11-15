@@ -1,9 +1,21 @@
-<h1>All my cocktails</h1>
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1559443922-3f698a0ff27a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1338&q=80);">
+  <div class="container">
+    <h1>Cocktails</h1>
+    <p>Fresh awesomeness</p>
+    <%= link_to "See the cocktails", "#", class: "btn btn-flat" %>
+  </div>
+</div>
 
-<ul>
-  <% @cocktails.each do |cocktail| %>
-   <li><%= link_to cocktail.name, cocktail_path(cocktail) %></li>
-  <% end %>
-</ul>
+<div class="container">
+  <div class="cocktail-cards">
+    <div class="cocktail-card">
+      <ul>
+        <% @cocktails.each do |cocktail| %>
+         <li><%= link_to cocktail.name, cocktail_path(cocktail) %></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
 
-<p><%= link_to "Add a cocktail", new_cocktail_path %></p>
+  <p><%= link_to "Add a cocktail", new_cocktail_path %></p>
+</div>
