@@ -4,6 +4,9 @@
   padding: 150px 0;
   height: 900px;
   position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .banner h1 {
@@ -27,6 +30,6 @@
   align-items: center;
   flex-direction: column;
   position: absolute;
-  right: 546px;
+  right: 513px;
   top: 387px;
 }

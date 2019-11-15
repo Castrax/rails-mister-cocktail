@@ -21,3 +21,23 @@
 h2 {
   font-weight: 800;
 }
+
+.divider-2 {
+  background-image: url(http://res.cloudinary.com/ddlesqeup/image/upload/v1573828608/otzv1mhbzzydew6zlyhx.png);
+  background-size: cover;
+  width: 100px;
+  height: 20px;
+  display: inline-block;
+  z-index: 99;
+  position: relative;
+}
+
+.add-cocktail {
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none !important;
+  color: #333333 !important;
+  background-color: transparent;
+}
